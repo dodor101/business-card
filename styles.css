@@ -31,13 +31,12 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .group-btn input:first-child {
   background-color: rgb(237, 235, 233);
   border: none;
-  padding:.5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 20px;
   margin: 2px;
   font-weight: 900;
@@ -45,7 +44,7 @@ form {
 .group-btn input:last-child {
   background-color: white;
   border: none;
-  padding:.5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 20px;
   margin: 2px;
   font-weight: 900;
@@ -73,3 +72,4 @@ form {
   margin-top: 20px;
   font-weight: 900;
 }
+/* git it */
