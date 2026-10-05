@@ -1,0 +1,70 @@
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+body,
+.wrapper {
+  min-height: 100vh;
+  background-color: rgb(117, 205, 205);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile {
+  height: 200px;
+  border-radius: 999px;
+  border: 5px solid pink;
+}
+.birthday-boy {
+  text-align: center;
+}
+
+.birthday-boy h3 {
+  background-color: pink;
+  padding: 1rem;
+  font-weight: 100;
+  border-radius: 20px;
+  text-shadow: 5px 2px 5px gray;
+}
+.birthday-boy p {
+  background-color: pink;
+  padding: 1rem;
+  font-weight: 100;
+  border-radius: 20px;
+  text-shadow: 5px 2px 5px gray;
+}
+header {
+  display: flex;
+
+  font-size: 30px;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+header h1 {
+  text-shadow: 5px 2px 5px gray;
+}
+
+/* second section */
+
+ul {
+  color: aliceblue;
+  font-size: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-shadow: 5px 2px 5px gray;
+  gap: 5rem;
+}
+
+.first-p {
+  font-size: 55px;
+}
